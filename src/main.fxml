@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+
+<SplitPane dividerPositions="0.75" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" orientation="VERTICAL" prefHeight="500.0" prefWidth="700.0" styleClass="root" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainController">
+    <items>
+        <VBox styleClass="vbox">
+            <children>
+                <Label styleClass="ueberschrift" text="Offene Aufgaben" />
+                <ScrollPane prefHeight="50000.0" prefWidth="50000.0" styleClass="scrollPane">
+                    <content>
+                        <VBox fx:id="oben" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="vbox">
+                            <children>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+            </children>
+        </VBox>
+        <VBox>
+            <children>
+                <Label styleClass="ueberschrift" text="Erledigte Aufgaben" />
+                <ScrollPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="50000.0" prefWidth="50000.0">
+                    <content>
+                        <VBox fx:id="unten" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" />
+                    </content>
+                    <styleClass>
+                        <String fx:value="root" />
+                        <String fx:value="scrollPane" />
+                    </styleClass>
+                </ScrollPane>
+            </children>
+        </VBox>
+    </items>
+</SplitPane>

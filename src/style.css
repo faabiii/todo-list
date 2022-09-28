@@ -1,0 +1,88 @@
+.root {
+    -fx-background-color: #343a40;
+    -fx-text-fill: #f8f9fa;
+}
+
+.split-pane *.split-pane-divider {
+    -fx-background-color: #adb5bd;
+}
+
+.scrollPane {
+    -fx-background-color: transparent;
+}
+
+.scrollPane> .viewport {
+    -fx-background-color: transparent;
+}
+
+.vbox {
+    -fx-background-color: transparent;
+}
+
+.ueberschrift {
+    -fx-background-color: transparent;
+    -fx-font-family: calibri;
+    -fx-font-size: 30;
+    -fx-text-fill: #f8f9fa;
+}
+.normall {
+    -fx-background-color: transparent;
+    -fx-font-family: calibri;
+    -fx-font-size: 20;
+    -fx-text-fill: #f8f9fa;
+}
+
+.checkbox {
+    -fx-background-color: transparent;
+}
+
+.buttonX {
+    -fx-opacity: 0;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-font-family: calibri;
+    -fx-font-size: 20;
+}
+.buttonXHover{
+    -fx-opacity: 1;
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+    -fx-background-color: transparent;
+    -fx-font-family: calibri;
+    -fx-font-size: 20;
+}
+
+.textfield {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f8f9fa;
+    -fx-font-size: 18;
+}
+.textfieldfocused {
+    -fx-font-size: 18;
+}
+
+.button{
+    -fx-background-color: #495057;
+    -fx-text-fill: #f8f9fa;
+}
+
+.button:hover {
+    -fx-background-color: #495057;
+    -fx-text-fill: #f8f9fa;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.5) , 4, 0.0 , 4 , 5 );
+}
+.button:pressed {
+    -fx-background-color: #495057;
+    -fx-text-fill: #f8f9fa;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.5) , 4, 0.0 , 4 , 4);
+}
+
+.kabel{
+    -fx-text-fill: #f8f9fa;
+}
+
+.babel {
+    -fx-text-fill: #f8f9fa;
+    -fx-font-size: 18;
+}
